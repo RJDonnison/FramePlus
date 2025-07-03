@@ -68,16 +68,11 @@ public final class ItemFrameLock extends JavaPlugin  implements Listener {
 
         if (!player.isSneaking() || player.getInventory().getItemInMainHand().getType() != Material.AIR) {
 
-            if (behind.getState() instanceof Container container) {
+            if (behind.getState() instanceof Container container)
                 player.openInventory(container.getInventory());
-                event.setCancelled(true);
-            }
 
             return;
         }
-
-        if (player.isSneaking() && behind.getState() instanceof Container && player.getInventory().getItemInMainHand().getType() != Material.AIR)
-            return;
 
 //        Toggle lock
         toggleItemFrameLock(player, frame);
