@@ -1,1 +1,1 @@
-Plugin for 1.21.6 paper that makes item frames only interactable by the player that placed them or OPs.
+Plugin for 1.21.6 Paper that allows item frame locking with crouch right-click. This stops item frame being interacted or broken with by all players. Item frames can only be unlocked by player that locked them or OP's. Also adds clicking through item frames on containers. 
