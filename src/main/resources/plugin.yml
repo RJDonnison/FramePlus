@@ -1,4 +1,4 @@
-name: ItemFrameLock
+name: FramePlus
 version: '1.1'
 main: org.reujdon.itemFrameLock.ItemFrameLock
 api-version: '1.21'
