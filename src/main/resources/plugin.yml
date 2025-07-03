@@ -1,0 +1,4 @@
+name: ItemFrameLock
+version: '1.0'
+main: org.reujdon.itemFrameLock.ItemFrameLock
+api-version: '1.21'
