@@ -163,7 +163,7 @@ public final class ItemFrameLock extends JavaPlugin  implements Listener {
         }
 
         String owner = frame.getPersistentDataContainer().get(ownerKey, PersistentDataType.STRING);
-        if (owner != null && !player.getUniqueId().toString().equals(owner)) {
+        if (owner != null && !player.getUniqueId().toString().equals(owner) && !player.isOp()) {
             event.setCancelled(true);
 
             player.playSound(frame.getLocation(), Sound.BLOCK_NOTE_BLOCK_BASS, 1.0f, 1.2f);
